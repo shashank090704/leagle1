@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situation Game</title>
+    <link rel="stylesheet" href="senariogame.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">SITUATION BASED GAME</h1> <!-- Main title -->
+        <!-- <a href="index.html" id="goHomeHeader">Go to Home</a>  -->
+    </header>
+
+    <div class="background">
+        <div class="container">
+            <div id="chapterSection">
+                <h1 class="chapter-title">Chapter 1</h1>
+                <button class="chapter-btn" id="startChapter">Start Scenario</button>
+                <button class="chapter-btn" id="chapter2">Chapter 2 (Not Available)</button>
+                <button class="chapter-btn" id="chapter3">Chapter 3 (Not Available)</button>
+            </div>
+
+            <div id="scenario" class="hidden">
+                <img src="./images/Screenshot 2024-09-19 at 4.41.03ΓÇ»AM.png" alt="Situation Image">
+                <p>Three thieves have broken into your house, and your mother is in immediate danger. In a tense struggle, you manage to disarm one of the thieves and gain control of their gun. Now, you must make a critical decision: according to the law, can you use the gun to shoot the intruders to protect yourself and your family?</p>
+                <div id="options">
+                    <button class="option-btn" id="yesOption">Yes, he can shoot the robber legally</button>
+                    <button class="option-btn" id="noOption">No, he can't shoot the robber as it will be considered murder</button>
+                </div>
+                <button class="back-btn hidden" id="backButton">Back to Chapter</button>
+                <a href="index.html"><button class="chapter-btn" id="goHome">Go to Home</button></a>
+            </div>
+
+            <div id="result" class="hidden">
+                <!-- Result content will be displayed here -->
+                <button class="chapter-btn" id="nextChapter">Next Chapter</button>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="senariogame.js"></script>
+</body>
+</html>

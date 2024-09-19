@@ -1,0 +1,118 @@
+/* General body settings */
+body {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    background: url('./images/background\ image.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #4e4e4e;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(210, 180, 140, 0.8); /* Light brown */
+    padding: 10px 20px;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+
+nav .nav-button {
+    margin-left: 10px;
+    background-color: #f5f5dc; /* Cream background */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+nav .nav-button:hover {
+    background-color: #e0e0d1; /* Slightly darker cream */
+}
+
+/* Privacy Policy container styling */
+.privacy-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(245, 245, 220, 0.8); /* Cream background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Section styling */
+.privacy-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* Footer styling */
+footer.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-link {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}

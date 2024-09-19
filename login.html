@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup - Leagle</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>LEAGLE</h1>
+            <img src="./images/PHOTO-2024-08-31-23-04-52 2.jpg" alt="Leagle Logo" class="logo">
+        </div>
+        <nav class="header-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="login.html">Login/Signup</a>
+            <a href="leaderboard.html">Leaderboard</a>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <div class="form-container">
+            <!-- Toggle Buttons for Login/Signup -->
+            <div class="toggle-buttons">
+                <button class="toggle-btn" onclick="showLogin()">Login</button>
+                <button class="toggle-btn" onclick="showSignup()">Signup</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="login-form" class="input-group">
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+
+            <!-- Signup Form -->
+            <form id="signup-form" class="input-group hidden">
+                <input type="text" class="input-field" placeholder="Full Name" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <button type="submit" class="submit-btn">Signup</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            Terms & Conditions | Privacy Policy | Leagle © 2024 | Powered by Polymath Technologies Pvt Ltd TM
+        </div>
+    </footer>
+
+    <script src="login.html"></script>
+</body>
+</html>
+
+

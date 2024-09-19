@@ -1,0 +1,125 @@
+/* General body settings */
+body {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    background: url('./images/background\ image.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #4e4e4e;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(210, 180, 140, 0.8); /* Light brown */
+    padding: 10px 20px;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+
+nav .nav-button {
+    margin-left: 10px;
+    background-color: #f5f5dc; /* Cream background */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease;
+}
+
+nav .nav-button:hover {
+    background-color: #e0e0d1; /* Slightly darker cream on hover */
+}
+
+/* Leaderboard container styling */
+.leaderboard-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(245, 245, 220, 0.8); /* Cream background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f5f5dc; /* Cream background for header */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #e0e0d1; /* Slightly darker cream */
+}
+
+/* Footer section styling */
+footer.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 5px 10px; /* Reduced padding */
+    text-align: center;
+    font-size: 14px; /* Smaller font size */
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1000px; /* Adjust max width to fit content */
+    margin: auto;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    gap: 15px; /* Smaller space between items */
+}
+
+.footer-link {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Smaller font size for links */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+

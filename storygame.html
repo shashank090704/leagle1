@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Based Game - Indian Constitution</title>
+  <link rel="stylesheet" href="storygame.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" id="home">Go to Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="title-section">
+      <h1>STORY BASED GAME</h1>
+    </section>
+
+    <section id="chapter-section">
+      <button id="chapter1-btn">CHAPTER 1</button>
+      <button id="chapter2-btn" disabled>CHAPTER 2</button>
+      <button id="chapter3-btn" disabled>CHAPTER 3</button>
+    </section>
+
+    <section id="video-section" style="display: none;">
+      <h2>Chapter 1: The Post Office Murder Case</h2>
+      <div class="video-container">
+        <video src="./video/story with voiceover.mp4" autoplay controls onended muted="this.pause();"></video>
+        
+        <p></p>
+      </div>
+      <p>Barendra Kumar Ghose was not directly involved in the murder or robbery but was charged under Section 34 for common intention.</p>
+      <h3>What will happen next?</h3>
+      <div class="options">
+        <button class="option-btn" data-answer="wrong">1. He will be booked for murder</button>
+        <button class="option-btn" data-answer="wrong">2. He will be booked for robbery</button>
+        <button class="option-btn" data-answer="wrong">3. He will be set free and declared innocent</button>
+        <button class="option-btn" data-answer="correct">4. He will be found guilty for both murder and robbery</button>
+      </div>
+      <div id="feedback" style="display: none;"></div>
+
+      <div id="law-education" style="display: none;">
+        <h4>Relevant Laws:</h4>
+        <ul>
+          <li>Section 34 - Common Intention</li>
+          <li>Section 302 - Punishment for Murder</li>
+          <li>Section 394 - Voluntarily causing hurt in committing robbery</li>
+        </ul>
+        <p>Even though Barendra Kumar Ghose didn't personally commit the murder or robbery, Section 34 of the IPC allows for prosecution under common intention. He was found guilty for both the murder and robbery under this section.</p>
+      </div>
+
+      <button id="next-chapter-btn" style="display: none;">Next Chapter</button>
+    </section>
+  </main>
+
+  <script src="storygame.js"></script>
+</body>
+</html>
